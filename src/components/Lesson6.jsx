@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Lesson5 = () => {
+const Lesson6 = () => {
   return (
     <div>
-      Lesson 5: CSS pseudo-selectors + more styles
+      Lesson 6: CSS transitions & animations + more styles
       <br />
       <br />
       1. Create four of each HTML element: <code>button, img, a</code>
@@ -19,8 +19,11 @@ const Lesson5 = () => {
       <br />
       4. Add styles on <code>:hover</code> and <code>:active</code> for each
       element
+      <br />
+      <br />
+      5. Add <code>transition: all 1s ease</code> to each element
     </div>
   );
 };
 
-export default Lesson5;
+export default Lesson6;
