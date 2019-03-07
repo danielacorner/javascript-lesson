@@ -1,5 +1,6 @@
 import React from 'react';
-
+const svgWidth = 200;
+const svgHeight = 200;
 const Lesson1 = () => {
   return (
     <div>
@@ -15,23 +16,40 @@ const Lesson1 = () => {
       <br />
       1. Make this and the next lines into a list, then
       <br />
-      <br />
-      2. Create two of each HTML tag:
-      <br />
-      <br />
-      Structural:
-      <br />
-      paragraph, h1, h6, blockquote, code, pre,
-      <br />
-      <br />
-      Functional:
-      <br />
-      button, link, input, textarea, select
-      <br />
-      <br />
-      Canvas:
-      <br />
-      svg, circle, rect, line, path
+      <ul>
+        <li>2. Create two of each HTML tag:</li>
+        <li>Structural:</li>
+        <li>
+          <p>paragraph</p>, <h1>h1</h1>, <h6>h6</h6>,{' '}
+          <blockquote>blockquote</blockquote>, <code>code</code>,{' '}
+          <pre>pre `</pre>,
+        </li>
+        <li>Functional:</li>
+        <li>
+          <button>button</button>, <a href="lesson2">link</a>, <input />,{' '}
+          <textarea>textarea</textarea>,{' '}
+          <select>
+            <option>select</option>
+            <option>select</option>
+            <option>select</option>
+            <option>select</option>
+            <option>select</option>
+            <option>select</option>
+          </select>
+        </li>
+        <li>Canvas:</li>
+        <li>
+          svg, circle, rect, line, path
+          <svg
+            width={svgWidth}
+            height={svgHeight}
+            style={{ background: 'lightgrey' }}
+          >
+            <circle r={10} fill={'red'} cx={svgWidth / 2} cy={svgHeight / 2} />
+            <rect x={10} width={10} fill={'red'} height={svgWidth / 2} />
+          </svg>
+        </li>
+      </ul>
     </div>
   );
 };

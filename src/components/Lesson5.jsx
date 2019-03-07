@@ -7,6 +7,22 @@ const Lesson5 = () => {
       <br />
       <br />
       1. Create four of each HTML element: <code>button, img, a</code>
+      <button>hey! don't click me pls</button>
+      <a href="/lesson6">
+        <img src="https://picsum.photos/300/300" alt="seagull" />
+      </a>
+      <button>hey! don't click me pls</button>
+      <a href="/lesson6">
+        <img src="https://picsum.photos/300/299" alt="bananas" />
+      </a>
+      <button>hey! don't click me pls</button>
+      <a href="/lesson6">
+        <img src="https://picsum.photos/299/299" alt="" />
+      </a>
+      <button>hey! don't click me pls</button>
+      <a href="/lesson6">
+        <img src="https://picsum.photos/299/300" alt="" />
+      </a>
       <br />
       <br />
       2. Add a unique class to each set of <code>button / img / a</code>{' '}

@@ -1,0 +1,57 @@
+div {
+  margin: 0;
+  padding: 0;
+
+  /* background: hsl(150, 50%, 50%); */
+  transition: 200ms cubic-bezier(0, 1, 0.32, 1);
+}
+ul {
+}
+li {
+  border: 2px solid tomato;
+  font-size: 18px;
+  padding: 9px;
+  border-radius: 4px;
+}
+button {
+  background: white;
+  border-radius: 5px;
+  box-shadow: 1px 3px 4px 1px rgba(0, 0, 0, 0.22);
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.9);
+  transition: 1000ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+button:hover {
+  background: limegreen;
+}
+.uncool-button.cool-button:hover {
+  background: rgb(55, 153, 148);
+  transform: scale(2);
+}
+.uncool-button:hover {
+  transform: scale(0.5);
+  background: blueviolet;
+}
+.cool-button:hover {
+  background: tomato !important;
+  transform: scale(2);
+}
+.supercool-button:hover {
+  background: blueviolet;
+  background: azure;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transform: rotateY(80deg) translate3d(20px, 10px, 80px) scale(4);
+}
+div.everything {
+  background: rgb(199, 70, 70);
+  padding: 20px 40px;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+}
+button:active {
+  transform: scale(0.9) !important;
+}

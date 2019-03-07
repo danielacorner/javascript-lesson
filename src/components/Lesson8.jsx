@@ -1,8 +1,11 @@
 import React from 'react';
-
+const array = [1, 2, 3, 4];
 const Lesson8 = () => {
   return (
     <div>
+      {array.map(element => (
+        <button>hey!</button>
+      ))}
       Lesson 8: Declarative JavaScript: Mapping Elements
       <br />
       <br />
